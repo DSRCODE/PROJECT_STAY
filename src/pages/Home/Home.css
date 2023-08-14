@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.homepage{
+  height: 54rem;
+  width: 100%;
+  
+}
+.home-container,.home-container-child {
+  border-radius: 0% 0% 0% 0% / 50% 50% 50% 50%;
+  width: 100%;
+  height: 54rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.home-container-child{
+  height: 44rem;
+  margin-top: -17rem;
+}
+
+.background-video {
+  width: 100%;
+  height: 120vh;
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  margin-top: -12rem;
+  filter: brightness(0.7);
+
+
+}
+
+.background-video video {
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 35%;
+  width: 100%;
+  margin-top: 1rem;
+
+}
+
+.home-content h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  filter: drop-shadow(2px 3px 1px black);
+ 
+ 
+}
+.home-content span{
+  margin: 2px 10px;
+  
+}
+.home-content .s3,.home-content .s2,.home-content .s1{
+   font-size: 5rem;
+   font-weight: 800;
+   background-image: url(https://media.istockphoto.com/id/1226349001/photo/color-fan-open-pantone-sample-colors-catalogue.jpg?s=612x612&w=0&k=20&c=laEf_osKzkjQwxZY2R5IZRi1NHHaNa2XcgxXygUlk08=);
+   background-size: cover;
+   background-position: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}
+.home-content .s2{
+  font-size: 5rem;
+  
+  
+}
+.home-content .s1{
+  font-size: 5rem;
+}
+.home-content p{
+  width: 60%;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-stretch:extra-expanded;
+  filter: drop-shadow(1px 1px 2px rgb(0, 0, 0));
+  
+}
+
+.home-content .home-searchbar {
+  width: 70%;
+  height: 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-search input {
+  width: 70%;
+  height: 60%;
+  padding: 3px 12px;
+  border-top-left-radius: 34px;
+  border-bottom-left-radius: 34px;
+  border: 0px none transparent;
+  outline: none;
+  font-size: 23px;
+  border: none;
+  text-decoration: none;
+
+}
+
+#home-search button {
+  width: 15%;
+  height: 60%;
+  border-top-right-radius: 34px;
+  border-bottom-right-radius: 34px;
+  border: none;
+  font-size: 23px;
+  color: white;
+  background-color: black;
+}
+
+.home-content span {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: white;
+}
+
+.home-elements {
+  border-radius: 0% 0% 0% 0% / 50% 50% 50% 50%;
+  width: 100%;
+  height: 100rem;
+  /* margin-top: -194px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-component {
+  /* border: 2px solid white; */
+  width: 99%;
+  height: 25%;
+  margin-top: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.home-component h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 40px;
+  padding: 9px;
+  border-left-style: double;
+  border-bottom-style: double;
+  border-radius: 12px;
+  margin: 20px;
+  box-shadow: 4px -2px 4px black;
+}
+
+/* #house {
+  margin-top: 4rem;
+} */
+
+.home-component-element {
+
+  width: 22%;
+  border-radius: 20px;
+  height: 80%;
+  flex: 0 0 auto;
+  margin: 2px 13px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 2px 2px 18px black;
+  background-color: black;
+}
+
+/* .home-component-element .info{
+  color: white;
+  position: absolute;
+  width: 17rem;
+  margin-top: -118px;
+} */
+.home-component1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 99%;
+  height: 95%;
+  background: #d8d8d8;
+
+}
+
+.home-component1 .btn button {
+  height: 3rem;
+  font-size: 15px;
+  width: 5rem;
+  border-radius: 10px;
+}
+
+.home-component1::-webkit-scrollbar {
+  display: none;
+}
+
+.home-component-element {
+  background-color: black;
+}
+
+.home-component-element img {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.home-component-element span {
+
+  position: relative;
+  bottom: 3rem;
+  font-size: 23px;
+  height: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: white;
+
+}
+
+.home-component-element .info {
+  display: none;
+
+}
+
+/* .home-component-element .info h2{
+  position: relative;
+  bottom: 8rem;
+  font-size: 23px;
+  height: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: white;
+} */
+
+.home-component-element img:hover {
+  opacity: 0.5;
+
+}
+
+.home-component-element img:hover > .home-component-element :first-child {
+  display: flex;
+
+}
