@@ -4,7 +4,7 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from 'react'
 import Lottie from "lottie-react"
-import choose from "../lottifile/choose1.json"
+import choose from "../../Assets/lottifile/choose1.json"
 function Homeelement() {
     let centerpage = useRef(null);
     gsap.registerPlugin(ScrollTrigger);

@@ -4,8 +4,6 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from 'react'
 import room4 from '../../images/room4.jpg'
-import Lottie from "lottie-react"
-import choose from "../lottifile/home4.json"
 
 function Center() {
   let backimage = useRef(null);
@@ -77,11 +75,7 @@ function Center() {
               </p>
               <button id='writtenbtn' ref={el => { clickbtn = el }}>Click For More</button>
               </div>
-              <div className="written-boxitem">
-                <div className="lottie2" ref={el => { Lottie1 = el }}>
-              <Lottie animationData={choose} />
-                </div>
-              </div>  
+              
             </div>
             
             <div className="written-box" id='box2'>

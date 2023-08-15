@@ -6,9 +6,7 @@ import Center from '../../Components/Center/Center'
 import Homeelement from '../../Components/Center/Homeelement'
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-
-
-
+import Card from '../../Components/Center/Card'
 
 
 function Home() {
@@ -55,6 +53,9 @@ function Home() {
           </div>
         </div>
         <Center />
+        <Card title="Room For Rent"/>
+        <Card title="HOstel To Stay"/>
+        <Card title="PG For Student"/>
       </div>
     </>
   )
@@ -71,38 +72,3 @@ export default Home
 
 
 
-
-
-
-
-
-
-
-
-
-// function Home() {
-//   return (
-//     <>
-//     <Nav />
-//       <div className="home-container">
-//         <div className="home-content">
-//           <div className="background-video">
-//             <video src={videobg} autoPlay loop muted />
-//           </div>
-//           <h1>Find Your Landlord</h1>
-//           <div className="home-searchbar" id='home-search'>
-//             <input type="search" name="" id="" placeholder='Search Your Place...' />
-//             <button>Search</button>
-//           </div>
-//           <span>Having difficult to live, let's join us and find your happy stay...</span>
-//         </div>
-//       </div>
-//       {/* <Homeelments title="House On Rent" />
-//       <Homeelments title="Hostel To Stay" />
-//       <Homeelments title="PG For Students" />   */}
-//       <Center/>
-//     </>
-//   )
-// }
-
-// export default Home

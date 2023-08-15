@@ -1,0 +1,145 @@
+
+  .home-component {
+    width: 100%;
+    height: 43rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #d8d8d8;
+  
+  }
+  .home-component section{
+    width: 90%;
+    height: 11%;
+  }
+  
+  .home-component section h1 {
+     display:flex;
+     justify-content: flex-start;
+     align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 28px;
+    padding: 3px;
+    letter-spacing: 3px;
+    border-radius: 4px;
+    margin: 20px;
+   
+  }
+  
+  .home-component-element {
+  
+    width: 30%;
+    border-radius: 5px;
+    height: 97%;
+    flex: 0 0 auto;
+    margin: 0px 0px;
+    text-align: center;
+    transition: 0.8s;
+    background: #ffffff;
+    transition: all ease-in-out 0.3s;
+  }
+  .home-component-element:hover{
+    box-shadow: 0px 0px 3px black;
+      transform: scale3d(1.01,1.01, 1.01);
+    }
+  .home-component1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 90%;
+    height: 75%;
+    background: #d8d8d8;
+  }
+  .home-component-element .img{
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 42%;
+    width: 100%;
+  }
+  .home-component-element .info{
+    color: black;
+    height: 58%;
+    width: 95%;
+    display: flex;
+    padding: 19px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .info h3{
+    font-size: 24px;
+  }
+  .info h4{
+    font-size: 17px;
+  }
+  .info p{
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .info button{
+    background-color: #3e3ebe;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all ease-in-out 0.3s;
+  }
+  .info button:hover,.home-component .btn button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+  }
+  
+  .home-component .btn{
+    height: 10%;
+    width: 88%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+ .home-component .btn button {
+    background-color: #3e3ebe;
+    color: white;
+    height: 3rem;
+    width: 7rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all ease-in-out 0.3s;
+  }
+   
+  .home-component-element img {
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 100%;
+    width: 100%;
+    opacity:0.7;
+  
+  }
+
+  .home-component-element img:hover {
+    opacity: 1;
+  
+  }
+    
+  /* .home-component-element:hover >.home-component-element img{
+    opacity: 1;
+  } */
+  
+  .home-component-element img:hover > .home-component-element :first-child {
+    display: flex;
+  
+  }
