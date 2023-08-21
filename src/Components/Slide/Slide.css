@@ -1,0 +1,58 @@
+.slide-container{
+    height: 34rem;
+    width: 100%;
+    background-color: rgb(216 216 216);
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-content{
+    width: 87%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.255);
+    background-color: #ffffff64;
+    transition: 1s;
+}
+.slide-content:hover{
+    border-radius: 4px;
+    background-color: #ff5e0047;
+}
+.slide-container .slide-box1{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-container .slide-box1 .lottie{
+    height: 95%;
+    transition: 3s;
+}
+.slide-container .slide-box1 .lottie :hover{
+     scale: 1.01;
+}
+
+.slide-container .slide-box2{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.slide-container .slide-box2 h1{
+    font-size: 44px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.slide-content .slide-box2 p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+

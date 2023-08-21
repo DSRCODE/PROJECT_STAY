@@ -1,58 +1,35 @@
 import React from 'react';
 import "./Nav.css"
-// import {/en } from "gsap"
-import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-
 import { Link } from 'react-router-dom';
 
 function Nav() {
-
   return (
-    <div>
-      <header>
-        <div className="Navbar" >
-          <div className="nav-element">
-            <div className="logo">
-              {/* <img src={stay} alt="./images/Stay.png" /> */}
-              <p>S </p><span>TAY</span>
-            </div>
-          </div>
-          <div className="nav-element"></div>
-          <div className="nav-element" id='navbar-element'   >
-              
-            <div>
-
-              <Link style={{ textDecoration: 'none' }}  >Home</Link>
-            </div>
-            <div >
-
-              <Link style={{ textDecoration: 'none' }}>About</Link>
-            </div>
-            <div >
-
-              <Link style={{ textDecoration: 'none' }} >Contact </Link>
-            </div>
-            <div >
-
-              <Link style={{ textDecoration: 'none' }} >Services </Link>
-            </div>
-            <div >
-
-              <Link style={{ textDecoration: 'none' }}  >Help</Link>
-            </div>
-          </div>
-          
-          <div id="home-btn" >
-            <div className="nav-element" id='login-btn'>
-              <button>Sign Up</button>
-            </div>
-            <div className="nav-element" id='login-btn'>
-              <button>Log In</button>
-            </div>
-          </div>
+    <div className="navbar">
+      <div className="navbar-box1">
+        <div className="logo">
+          <h1>Logo</h1>
         </div>
-      </header>
+      </div>
+
+      <div className="navbar-box2">
+        
+        <div className="navbar-element1">
+          <ul>
+            <li> <Link>Home</Link></li>
+            <li><Link>Tenant</Link></li>
+            <li><Link>Owner</Link></li>
+            <li><Link>Services</Link></li>
+            <li><Link>About</Link></li>
+          </ul>
+        </div>
+
+        <div className="navbar-element2">
+          <button>Sign Up</button>
+          <button>Log In</button>
+        </div>
+
+      </div>
+
     </div>
   );
 }

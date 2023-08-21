@@ -5,7 +5,7 @@
 
 }
 .homepage{
-  height: 54rem;
+  height:auto;
   width: 100%;
   
 }
@@ -20,7 +20,7 @@
 
 }
 .home-container-child{
-  height: 44rem;
+  height: 37rem;
   margin-top: -17rem;
 }
 
@@ -31,9 +31,18 @@
   content: " ";
   z-index: -1;
   margin-top: -12rem;
-  filter: brightness(0.7);
+  overflow: hidden;
+  filter: brightness(0.4);
 
 
+}
+img, svg {
+  vertical-align: middle;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.6);
+  
 }
 
 .background-video video {
@@ -55,50 +64,16 @@
 
 .home-content h1 {
   color: white;
-  letter-spacing: 2px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: lighter;
-  filter: drop-shadow(2px 3px 1px black);
- 
- 
-}
-.home-content span{
-  margin: 2px 10px;
-  
-}
-.home-content .s3,.home-content .s2,.home-content .s1{
-   font-size: 5rem;
-   font-weight: 800;
-   background-image: url(https://media.istockphoto.com/id/1226349001/photo/color-fan-open-pantone-sample-colors-catalogue.jpg?s=612x612&w=0&k=20&c=laEf_osKzkjQwxZY2R5IZRi1NHHaNa2XcgxXygUlk08=);
-   background-size: cover;
-   background-position: center;
-   background-clip: text;
-   -webkit-background-clip: text;
-   color: transparent;
-}
-.home-content .s2{
-  font-size: 5rem;
-  
-  
-}
-.home-content .s1{
-  font-size: 5rem;
-}
-.home-content p{
-  width: 60%;
-  margin-top: 1rem;
-  color: rgb(255, 255, 255);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-stretch:extra-expanded;
-  filter: drop-shadow(1px 1px 2px rgb(0, 0, 0));
-  
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+
+
 }
 
 .home-content .home-searchbar {
   width: 70%;
   height: 35%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,6 +82,6 @@
 
 .home-content span {
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 14px;
   color: white;
 }
