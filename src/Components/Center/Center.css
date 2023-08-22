@@ -1,0 +1,228 @@
+.center-container{
+   height: 70vh;
+   width: 100%;
+   margin-top: -12rem;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   overflow: hidden;
+}
+
+.centerpage{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.center-container>img{
+    background-color: black;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    content: " ";
+    filter: brightness(0.5);
+}
+
+.center-element{
+  /* border: 2px solid white; */
+  width: 80%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#usertype{
+    height: 4rem;
+  
+}
+ #userdata{
+  margin-top: 3px;
+  width: 63.1%;
+  background-color: rgb(255 255 255 / 21%);
+  color: rgb(255 92 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ffffff5c;
+}
+.C-element{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.C-element  .lottie  {
+  position: relative;
+  
+}
+#tenant,#landlord{
+  background-color: white;
+  height: 4rem;
+  width: 11rem;
+  font-size: 23px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#tenant{
+  background-color:  rgb(255 92 0);
+  color: white;
+}
+#tenant:hover,#box1 button:hover{
+  background-color:  rgb(255, 255, 255);
+  color: rgb(255 92 0);
+  font-weight: bold;
+}
+#landlord{
+  color:  rgb(255 92 0);
+}
+#landlord:hover{
+  color:  rgb(255, 255, 255);
+  background-color:  rgb(255 92 0);
+  font-weight: bold;
+}
+
+.infosearch{
+  width: 90%;
+  height: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#queshading{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25%;
+  font-size: 17px;
+
+}
+#queshading h2{
+  filter: drop-shadow(2px 3px 1px black);
+}
+.infosearch-box{
+  
+  width: 24%;
+  height: 84%;
+}
+
+.infosearch-box #locate,#Price-range,#roomtype{
+  height: 2rem;
+  width: 90%;
+  font-size: 17px;
+  margin-top: 5px;
+  padding: 2px 14px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+#locate::placeholder{
+  color: white;
+}
+.infosearch-box select option{
+  color:rgb(0, 0, 0);
+  background: transparent; 
+}
+
+
+.infosearch-box #locate:hover,#Price-range:hover,#roomtype:hover{
+  filter: drop-shadow(0px 0px 1px black);
+  box-shadow: 0px 0px 1px rgb(255, 255, 255);
+  /* border-radius: 5px; */
+  /* border-bottom: 1px solid black ; */
+}
+#locate> input:placeholder-shown{
+  color: white;
+}
+.infosearch-box span{
+  font-size: 16px;
+  margin-left: 4px;
+}
+#searchicon{
+   
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    
+    /* background-color:  rgb(255 92 0);;
+    color: white;   */
+    
+  }
+  .glassicon{
+    position: absolute;
+    top: 69%;
+    right: 26%;
+    padding: 15px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: 0.8s;
+}
+.glassicon:hover{
+    color: white;
+    background-color: rgb(255 92 0);
+}
+#writtendata{
+  height: 100%;
+  width: 100%;
+  background-color:  rgba(255, 255, 255, 0.773);
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#writtendata .written-box{
+  height: 80%;
+  filter: drop-shadow(0px 0px 1px black);
+}
+#writtendata #box1{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.written-boxitem{
+  height: 62%;
+  font-size: 50px;
+  color:rgb(255 92 0) ;
+  padding: 0px 32px;
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+  flex-direction: column;
+
+}
+
+#writtenbtn{
+  height: 3rem;
+  width: 12rem;
+  color: white;
+  background-color: rgb(255 92 0);
+  font-size: 22px;
+  border-radius: 2px;
+ 
+  transition: 0.3s;
+}
+
+#writtendata #box2{
+  width: 40%;
+  overflow: hidden;
+}
+#writtendata #box2 .room4{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
