@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Nav from "../../Components/Navbar/Nav"
-import videobg2 from '../../images/backv2.mp4'
+import videobg2 from '../../Images/backv2.mp4'
 import Center from '../../Components/Center/Center'
 import Homeelement from '../../Components/Center/Homeelement'
 import { useEffect, useRef } from 'react';

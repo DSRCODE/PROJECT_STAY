@@ -3,7 +3,7 @@ import "./Center.css"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from 'react'
-import room4 from '../../images/room4.jpg'
+import room4 from '../../Images/room4.jpg'
 
 function Center() {
   let backimage = useRef(null);

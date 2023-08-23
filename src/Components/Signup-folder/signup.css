@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .signup-hub {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hub-signup {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.552);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .sign-part-1 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgba(250, 67, 0, 0.857);
+  
+    /* align-items: center; */
+  }
+  .carousel .thumbs-wrapper {
+    display: none !important;
+  }
+  .signup-part1-heading {
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  
+  .Lottie-files {
+  
+    margin-top: 5rem;
+    width: 80%;
+    height: 60%;
+  }
+  .title-signup-part1 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    font-family: "Orbitron", sans-serif;
+  }
+  .signup-part-2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-page-main-heading{
+    display: flex; 
+    justify-content: center;
+  
+  }
+  .signup-page-main-heading  .signup-page-heading-child{
+    font-size: 4.8rem;
+  }
+  
+  
+  
+  .secondary-hello-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    font-size: 1.2rem;
+    color: rgba(87, 87, 172, 0.889);
+    margin: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .signup-part-2 .form {
+    height: 80%;
+    width: 80%;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 100px; */
+  }
+  .input-email-parent {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input-email-child {
+    border: 1px solid black;
+  
+    margin: 13px 0px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  .input-email-child input {
+    padding: 12px 12px;
+    font-size: 1.2rem;
+  
+    outline:none; 
+  
+    border: none;
+    /* border-radius: 4px; */
+    box-shadow: none;
+  }
+  #input-email-child-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.701);
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  
+  .new-input-checkbox {
+    width: 95%;
+    display: flex;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  
+  
+  }
+  .new-input-checkbox input {
+    padding: 23px 23px;
+    margin-top: 2px;
+  
+    
+  }
+  .input-checkbox-content .italic-content-checkbox {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .signup-page-button {
+    margin-top: 23px;
+    width: 95%;
+    height: 20%;
+  
+    display: flex;
+  
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .signup-page-button .signup-page-btn {
+    
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+      background-color: rgba(250, 67, 0, 0.857);
+      color: white;
+    font-size: 1.5rem;
+    transition: all 0.4s;
+  }
+  .signup-page-button .signup-page-btn:hover{
+    background-color:white;
+    border: 1px solid  rgba(250, 67, 0, 0.857) ;
+  color: rgba(250, 67, 0, 0.857);
+  }
+  .extra-signup-properties{
+    width: 100%;
+    height: 20%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .signup-already-account {
+    font-size: 1.2rem;
+  }
+  
+  .signup-already-account .signup-already-account-child-anchor{
+    text-decoration: none;
+    color: black;
+    
+    
+  }
+  .signup-already-account .signup-already-account-child-anchor .sigup-already-account-span{
+    color: blue;
+  }
+  .signup-with-google-socialmedia-handle{
+    width: 40% ;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .signup-with-google-socialmedia-handle .signup-content-with-social-media{
+  
+    padding: 20px 30px; 
+    background-color: rgba(250, 67, 0, 0.857);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+    
+  
+    
+  }
+  .signup-with-google-socialmedia-handle .signup-content-with-social-media:hover{
+    background-color:white ;
+    border: 1px solid rgba(250, 67, 0, 0.857);
+    color: rgba(250, 67, 0, 0.857);
+  
+  }
+                            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

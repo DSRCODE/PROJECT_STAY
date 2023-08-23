@@ -1,7 +1,7 @@
 import React, { useRef,useEffect } from 'react'
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import stay22 from '../../images/stay22.jpg'
+import stay22 from '../../Images/stay22.jpg'
 import "./Card.css"
 function Card(props) {
     let card = useRef(null);

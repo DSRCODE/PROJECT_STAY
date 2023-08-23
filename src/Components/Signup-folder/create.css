@@ -1,0 +1,57 @@
+.signup-part-3{
+   
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.page-account-heading-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.account-page-parent{
+  width: 80%;
+  height: 80%;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.page-account-button{
+  width: 100%;
+  height: 30%;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-account-button .account-page-btn{
+  font-size: 1.8rem;
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  background-color: rgba(250, 67, 0, 0.857) ;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  transition: all 0.5s;
+
+}
+.page-account-button .account-page-btn:hover{
+  background-color:#fff;
+  color:  rgba(250, 67, 0, 0.857);
+  border: 1px solid  rgba(250, 67, 0, 0.857);
+}
+
